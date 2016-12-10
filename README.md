@@ -16,11 +16,9 @@ grayed. Thus, the class allows for a layering of effects and similarly, blurring
 
 __Button Class:__
 
-The Button class is responsible for constructing a button object, dictating where the buttons will
-be displayed on the canvas, perfectly centering the text within buttons, and finally defining a
-contains method for the button object.
+The Button class is responsible for constructing a button object, perfectly centering the text within 
+button, and finally defining a contains method for the button object.
 
- 
  __@author Sabirah Shuaybi__
  
  __@version 10/04/16__
