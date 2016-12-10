@@ -92,7 +92,7 @@ public class ImageManipulator extends WindowController
         if (visibleImage != null) {
             visibleImage.removeFromCanvas();
         }
-        //Creates a visible image at coordinate (0,40) on canvas
+        //Create a visible image at coordinate (0,40) on canvas
         visibleImage = picture.createVisibleImage(0, picLocY, canvas);
     }
 
