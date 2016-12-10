@@ -23,7 +23,7 @@ public class ImageManipulator extends WindowController
     private VisibleImage visibleImage;
 
     //To position picture 40 pixels down from top of canvas (to leave room for buttons)
-    private static final int picLocY = 40;
+    private static final int PIC_LOC_Y = 40;
 
     //Image manipulating buttons
     private Button grayButton;
@@ -93,7 +93,7 @@ public class ImageManipulator extends WindowController
             visibleImage.removeFromCanvas();
         }
         //Create a visible image at coordinate (0,40) on canvas
-        visibleImage = picture.createVisibleImage(0, picLocY, canvas);
+        visibleImage = picture.createVisibleImage(0, PIC_LOC_Y, canvas);
     }
 
  /* Pure function/method that takes any picture as a parameter and
