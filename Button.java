@@ -2,9 +2,8 @@ import java.awt.*;
 import objectdraw.*;
 
 /**
- * The button class is responsible for constructing a button object, dictating where the buttons will
- * be displayed on the canvas, perfectly centering the text within buttons, and finally defining a
- * contains method for the button object.
+ * The button class is responsible for constructing a button objec, perfectly centering the text within button, 
+ * and finally defining a contains method for the button object.
  *
  * @author Sabirah Shuaybi
  * @version 10/9/16
