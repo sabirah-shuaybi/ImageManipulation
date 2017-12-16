@@ -4,9 +4,8 @@ This program consists of three classes: __ImageManipulator__, __Button__ and __P
 
 __ImageManipulator Class:__
 
-The ImageManipulator class loads, displays a picture and constructs buttons from button class
-that have contain methods attached to photoshopping methods like gray scale, mirror, blur and
-(revert back to) original.
+The ImageManipulator class loads, displays a picture and presents various photoshopping effects via buttons
+such as gray scale, mirror, blur and (revert back to) original.
 
 This class defines an instance variable Picture picture that holds the value of the mutated picture
 throughout the program and thus allows the user to perform multiple effects on the picture.
